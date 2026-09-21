@@ -29,3 +29,16 @@ Si vous souhaitez reproduire mes analyses, vous pouvez télécharger le jeu de d
 🔗 [OULAD Dataset sur Kaggle](https://kaggle.com)
 
 **Note pour l'exécution :** Après avoir téléchargé l'archive, j'ai placé l'ensemble des fichiers CSV dans un dossier nommé `Datasets/` à la racine de mon projet pour que mes scripts fonctionnent correctement.
+
+### 📁 Description des fichiers du jeu de données
+
+Voici le rôle et le contenu de chaque fichier CSV présent dans mon dossier `Datasets/` :
+
+*   **assessments.csv (Évaluations) :** Contient les informations sur les examens et les devoirs à rendre (le type de devoir, la date limite de rendu officielle et son coefficient/poids dans la note finale).
+*   **courses.csv (Cours/Modules) :** Liste l'ensemble des modules disponibles ainsi que les sessions de cours (présentations) proposées pour chaque semestre.
+*   **studentAssessment.csv (Notes des étudiants) :** Regroupe les notes obtenues par chaque étudiant à ses différentes évaluations, ainsi que la date exacte à laquelle il a rendu son devoir.
+*   **studentInfo.csv (Profils des étudiants) :** Contient les données démographiques et le résultat final de chaque étudiant (genre, région, niveau d'études, tranche d'âge, score de précarité, et s'il a réussi, échoué ou abandonné le cours).
+*   **studentRegistration.csv (Inscriptions) :** Enregistre la date à laquelle l'étudiant s'est inscrit à un module (souvent un nombre de jours négatif avant le début officiel) et sa date de désinscription s'il a abandonné.
+*   **studentVle.csv (Interactions VLE/Moodle) :** C'est le fichier le plus volumineux. Il enregistre chaque clic de chaque étudiant sur la plateforme en ligne (la date du clic, la page visitée et le nombre de fois qu'il a cliqué ce jour-là).
+*   **vle.csv (Matériel pédagogique) :** Répertorie toutes les ressources disponibles sur la plateforme en ligne (fichiers PDF, pages HTML, forums, quiz, URL externes).
+
